@@ -79,8 +79,9 @@ p {
 }
 
 .about-paragraphs {
-  display: flex;
-  margin: 30px 0;
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: #f9f7fe;
 }
 
 .about-paragraphs p {
@@ -106,4 +107,14 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+    padding: 70px;
+  }
+  h2 {
+    padding: 20px;
+  }
 }
